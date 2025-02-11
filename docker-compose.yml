@@ -1,0 +1,13 @@
+services:
+  analysis-env:
+    image: rocker/tidyverse:4.4.2
+    ports:
+      - "8787:8787"
+    volumes:
+      - .:/home/rstudio/work
+    environment:
+      PASSWORD: "pissa"
+
+# This file is a replacement for having to write the following command line
+# docker run --rm -it -e PASSWORD="pissa" -p 8787:8787 
+# -v /$(pwd):/home/rstudio/work rocker/tidyverse:4.4.2
