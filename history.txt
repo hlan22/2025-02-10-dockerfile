@@ -1,0 +1,68 @@
+    1  explorer .
+    2  pwd
+    3  python --version
+    4  conda --version
+    5  
+    6  code "/c/Program Files/Git/etc/profile.d/git-prompt.sh"
+    7  conda install jupyterlab jupyterlab-git jupyterlab-spellchecker
+    8  jupyter lab
+    9  code ~/.bash_profile
+   10  R --version
+   11  R --version
+   12  latex --version
+   13  
+   14  code ~/.bash_profile
+   15  make --version
+   16  docker run hello-world
+   17  docker run hello-world
+   18  bash <(curl -Ss https://raw.githubusercontent.com/UBC-DSCI/dsci-310-student/main/src/check_setup.sh)
+   19  bash <(curl -Ss https://raw.githubusercontent.com/UBC-DSCI/dsci-310-student/main/src/check_setup.sh)
+   20  ls
+   21  cd
+   22  pwd
+   23  bash <(curl -Ss https://raw.githubusercontent.com/UBC-DSCI/dsci-310-student/main/src/check_setup.sh)
+   24  cd Documents/GitHub
+   25  cd dsci310
+   26  ls
+   27  git status
+   28  cd ..
+   29  git clone https://github.com/hlan22/2025-02-10-dockerfile.git
+   30  cd 2025-02-10-dockerfile
+   31  docker run --rm -it -e PASSWORD="pissa" -p 8787:8787 rocker/tidyverse:4.4.2
+   32  docker run --rm -it -e PASSWORD="pissa" -p 8787:8787 -v /$(pwd):/home/rstudio/work rocker/tidyverse:4.4.2
+   33  ls
+   34  cat container.R
+   35  cat README.md Alt-# displays the contents of the file
+   36  Alt-# displays the contents of the file
+   37  #
+   38  #testing
+   39  history
+   40  #you can type out a comment and then do alt shift 3 (or hashtag) to make it a comment to show up in history
+   41  #cool!
+   42  code docker-compose.yml
+   43  docker-compose up
+   44  docker-compose up
+   45  docker-compose up
+   46  docker-compose up
+   47  docker-compose up
+   48  docker-compose rm
+   49  code Dockerfile
+   50  docker build --tag mycontainer .
+   51  docker images
+   52  docker run --rm -it -e PASSWORD="pissa" -p 8787:8787 -v /$(pwd):/home/rstudio/work mycontainer
+   53  docker run --rm -it -e PASSWORD="pissa" -p 8787:8787 -v /$(pwd):/home/rstudio/work mycontainer
+   54  git status
+   55  git add .
+   56  git commit -m "created docker-compose.yml and Dockerfile files"
+   57  git push origin main
+   58  docker compose up
+   59  docker compose rm
+   60  docker build --tag hlan22/mycontainer .
+   61  docker images | head
+   62  docker push
+   63  docker push hlan22/mycontainer .
+   64  docker push hlan22/mycontainer
+   65  docker run hlan22/mycontainer
+   66  #anyone from the internet can run that docker image now! they can just type hlan22/mycontainer too!
+   67  git status
+   68  history > history.txt

@@ -1,6 +1,6 @@
 services:
   analysis-env:
-    image: rocker/tidyverse:4.4.2
+    image: mycontainer
     ports:
       - "8787:8787"
     volumes:
