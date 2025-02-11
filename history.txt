@@ -66,3 +66,34 @@
    66  #anyone from the internet can run that docker image now! they can just type hlan22/mycontainer too!
    67  git status
    68  history > history.txt
+   69  git status
+   70  git add .
+   71  git commit -m "creation of mycontainer"
+   72  git push origin main
+   73  git status
+   74  git add .
+   75  git commit -m "make the docker pull from my internet version of hlan22/mycontainer"
+   76  mkdir .github
+   77  cd .github/
+   78  mkdir workflows
+   79  code docker-publish.yml
+   80  git status
+   81  cd ..
+   82  cd ..
+   83  git status
+   84  2025-02-10-dockerfile
+   85  cd 2025-02-10-dockerfile
+   86  #a .github folder is very important so that github knows what it can look up for things like automation 
+   87  git status
+   88  git add .
+   89  git commit -m "start the set up for automation of docker file through github actions"
+   90  git push origin main
+   91  cd ..
+   92  cd dsci310
+   93  git status
+   94  git add dsci310.Rproj
+   95  git commit -m "created R project to open notes easier in Rstudio"
+   96  cd ..
+   97  cd 2025-02-10-dockerfile
+   98  history
+   99  history > history.txt
