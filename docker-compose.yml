@@ -1,6 +1,6 @@
 services:
   analysis-env:
-    image: mycontainer
+    image: hlan22/mycontainer
     ports:
       - "8787:8787"
     volumes:
